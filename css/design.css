@@ -16,7 +16,10 @@ body{
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Anton', sans-serif;
 }
-
+.heavy-dark {
+    color: black;
+    font-weight: bolder;
+}
 
 .bg-red {
     background-color: var(--red);
@@ -53,6 +56,10 @@ h1, h2, h3, h4, h5, h6 {
 .logo-size {
     width: 105px;
     height: 105px;
+}
+
+.border-gray {
+    border: 9px solid var(--gray);
 }
 
 .btn-circle {
