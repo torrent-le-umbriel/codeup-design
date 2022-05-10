@@ -1,0 +1,90 @@
+:root {
+    --red: #E6563B;
+    --orange: #EB9D3A;
+    --green: #7CB06C;
+    --blue: #00ABA9;
+    --white: #F0F0F0;
+    --gray: #E6E6E6;
+}
+
+body{
+    background-color: var(--white);
+}
+
+
+.bg-red {
+    background-color: var(--red);
+}
+
+.bg-orange {
+    background-color: var(--orange);
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+.bg-blue {
+    background-color: var(--blue);
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
+.bg-gray {
+    background-color: var(--gray);
+}
+
+.font-abel {
+    font-family: 'Abel', sans-serif;
+}
+
+.font-anton {
+    font-family: 'Anton', sans-serif;
+}
+
+.logo-size {
+    width: 105px;
+    height: 105px;
+}
+
+.btn-circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+
+
+/*MEDIA QUERY SIZES */
+@media screen and (min-width: 576px) {
+
+}
+
+@media screen and (min-width: 768px) {
+    .logo-size {
+        width: 70px;
+        height: 70px;
+    }
+
+
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
+}
+
+@media screen and (min-width: 1400px) {
+
+}
+
+
+
+
+
