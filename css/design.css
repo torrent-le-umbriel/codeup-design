@@ -16,6 +16,11 @@ body{
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Anton', sans-serif;
 }
+
+.nothing {
+    margin: 0;
+    padding: 0;
+}
 .heavy-dark {
     color: black;
     font-weight: bolder;
