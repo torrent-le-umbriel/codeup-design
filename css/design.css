@@ -10,7 +10,7 @@
 body{
     background-color: var(--white);
     font-family: 'Abel', sans-serif;
-    font-size: 1.3em;
+    font-size: 1.4em;
 
 }
 
@@ -22,6 +22,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
 }
+
 .heavy-dark {
     color: black;
     font-weight: bolder;
@@ -94,11 +95,21 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 1.2em;
     }
 
+    .logo-size {
+        width: 90px;
+        height: 90px;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
     body{
         font-size: 1.1em;
+    }
+
+    .logo-size {
+        width: 80px;
+        height: 80px;
     }
 }
 
@@ -106,11 +117,21 @@ h1, h2, h3, h4, h5, h6 {
     body{
         font-size: 1em;
     }
+
+    .logo-size {
+        width: 70px;
+        height: 70px;
+    }
 }
 
 @media screen and (min-width: 1400px) {
     body{
         font-size: .9em;
+    }
+
+    .logo-size {
+        width: 60px;
+        height: 60px;
     }
 
 }
