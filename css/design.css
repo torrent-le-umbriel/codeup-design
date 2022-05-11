@@ -10,6 +10,7 @@
 body{
     background-color: var(--white);
     font-family: 'Abel', sans-serif;
+    font-size: 1.3em;
 
 }
 
@@ -89,23 +90,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media screen and (min-width: 768px) {
-    .logo-size {
-        width: 70px;
-        height: 70px;
+    body{
+        font-size: 1.2em;
     }
-
 
 }
 
 @media screen and (min-width: 992px) {
-
+    body{
+        font-size: 1.1em;
+    }
 }
 
 @media screen and (min-width: 1200px) {
-
+    body{
+        font-size: 1em;
+    }
 }
 
 @media screen and (min-width: 1400px) {
+    body{
+        font-size: .9em;
+    }
 
 }
 
